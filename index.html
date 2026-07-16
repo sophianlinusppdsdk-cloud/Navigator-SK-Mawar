@@ -2,29 +2,30 @@
 <html lang="ms">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navigator SK Mawar</title>
     <style>
         body { font-family: sans-serif; text-align: center; background: #f0f2f5; padding: 20px; }
         .menu { display: flex; flex-direction: column; gap: 10px; max-width: 400px; margin: auto; }
         .btn { padding: 15px; background: #2c3e50; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 16px; }
         #paparan { display: none; margin-top: 20px; }
-        #gambar-pelan { max-width: 100%; border: 5px solid white; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
+        #gambar-pelan { width: 100%; max-width: 600px; border: 5px solid white; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
         .back-btn { padding: 10px; background: #e74c3c; color: white; border: none; border-radius: 5px; margin-top: 10px; cursor: pointer; }
     </style>
 </head>
 <body>
 
 <h1>NAVIGATOR SK MAWAR</h1>
-<p>Klik destinasi untuk lihat laluan:</p>
+<p>Pilih tingkat untuk melihat pelan:</p>
 
 <div id="menu-utama" class="menu">
-    <button class="btn" onclick="tunjuk('photo_6253424666349342569_y.jpg')">Pejabat</button>
-    <button class="btn" onclick="tunjuk('photo_6253424666349342571_y.jpg')">Bilik ICT</button>
-    <button class="btn" onclick="tunjuk('photo_6253424666349342582_y.jpg')">Kantin</button>
-    </div>
+    <button class="btn" onclick="tunjuk('photo_6253424666349342576_y_2.jpg')">Lantai 2</button>
+    <button class="btn" onclick="tunjuk('photo_6253424666349342579_y_2.jpg')">Lantai 3</button>
+    <button class="btn" onclick="tunjuk('photo_6253424666349342580_y_2.jpg')">Lantai Bawah</button>
+</div>
 
 <div id="paparan">
-    <img id="gambar-pelan" src="" alt="Pelan Laluan">
+    <img id="gambar-pelan" src="" alt="Pelan Lantai">
     <br>
     <button class="back-btn" onclick="tutup()">Kembali ke Menu</button>
 </div>
