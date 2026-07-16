@@ -2,134 +2,50 @@
 <html lang="ms">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pelan Lantai Bawah Surau</title>
+    <title>Jadual Laluan Pelan Sekolah</title>
     <style>
-        /* Tetapan Asas & Pematuhan Margin */
-        *, *::before, *::after {
-            box-sizing: border-box;
-        }
-        
-        @page {
-            size: A4;
-            margin: 15mm 12mm;
-            background-color: #f7f9fa;
-        }
-
-        body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f7f9fa;
-            color: #2c3e50;
-            line-height: 1.6;
-        }
-
-        /* Bekas Utama Dokumen */
-        .container {
-            width: 100%;
-            max-width: 800px;
-            margin: 0 auto;
-            background: #ffffff;
-            padding: 25px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-            border-top: 5px solid #1abc9c;
-        }
-
-        /* Bahagian Tajuk */
-        .header {
-            text-align: center;
-            margin-bottom: 25px;
-            border-bottom: 2px solid #ecf0f1;
-            padding-bottom: 15px;
-        }
-
-        h1 {
-            font-size: 24px;
-            color: #2c3e50;
-            margin: 0 0 8px 0;
-            font-weight: 700;
-        }
-
-        .subtitle {
-            font-size: 14px;
-            color: #7f8c8d;
-            margin: 0;
-            font-style: italic;
-        }
-
-        /* Bekas Gambar Pelan */
-        .image-container {
-            text-align: center;
-            margin: 20px 0;
-            padding: 10px;
-            background: #fcfcfc;
-            border: 1px solid #e2e8f0;
-            border-radius: 6px;
-        }
-
-        .image-container img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-            border-radius: 4px;
-        }
-
-        /* Bahagian Info Tambahan */
-        .info-section {
-            margin-top: 25px;
-            background: #f8fafc;
-            padding: 15px 20px;
-            border-left: 4px solid #34495e;
-            border-radius: 0 6px 6px 0;
-        }
-
-        h2 {
-            font-size: 18px;
-            color: #34495e;
-            margin: 0 0 10px 0;
-        }
-
-        p {
-            margin: 0 0 10px 0;
-            color: #555;
-            font-size: 14px;
-        }
-
-        /* Bahagian Nota Kaki */
-        .footer {
-            text-align: center;
-            margin-top: 30px;
-            font-size: 12px;
-            color: #95a5a6;
-            border-top: 1px solid #ecf0f1;
-            padding-top: 15px;
-        }
+        body { font-family: Arial, sans-serif; padding: 20px; background-color: #f4f4f9; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #4CAF50; color: white; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <div class="header">
-        <h1>Pelan Lantai Bawah Surau</h1>
-        <p class="subtitle">Paparan Reka Bentuk dan Susun Atur Ruang</p>
-    </div>
+<h2>Ringkasan Laluan Berdasarkan Pelan Sekolah</h2>
+<p>Berikut adalah senarai destinasi dan laluan berdasarkan gambar yang diberikan:</p>
 
-    <div class="image-container">
-        <img src="https://i.postimg.cc/D4sgLPH6/LANTAI-BAWAH-SURAU.png" alt="Pelan Lantai Bawah Surau">
-    </div>
-
-    <div class="info-section">
-        <h2>Nota Reka Bentuk (Canva)</h2>
-        <p>Halaman ini memaparkan reka bentuk susun atur pelan lantai bawah bagi projek surau. Reka letak kod ini dibina dengan gaya minimalis moden supaya ia kelihatan profesional apabila dibuka pada pelayar web (browser) komputer, telefon pintar, mahupun apabila dicetak ke PDF.</p>
-    </div>
-
-    <div class="footer">
-        © Pelan Lantai Bawah Surau • Dihasilkan menggunakan Canva
-    </div>
-</div>
+<table>
+    <tr>
+        <th>Lantai</th>
+        <th>Destinasi (Tanda X)</th>
+        <th>Petunjuk Laluan</th>
+    </tr>
+    <tr><td>Lantai 1</td><td>Kelas 1 Intelek</td><td>Naik -> Belok Kanan</td></tr>
+    <tr><td>Lantai 1</td><td>Kelas 1 Pintar</td><td>Naik -> Pusing ikut koridor</td></tr>
+    <tr><td>Lantai 1</td><td>Bilik ICT</td><td>Naik -> Lurus terus</td></tr>
+    <tr><td>Lantai 1</td><td>Bilik Mesyuarat</td><td>Naik -> Pusing belah kanan</td></tr>
+    <tr><td>Lantai 1</td><td>Bilik Pemulihan</td><td>Naik -> Pusing belah kanan</td></tr>
+    <tr><td>Lantai 1</td><td>Kelas 3 Intelek</td><td>Naik -> Lurus terus</td></tr>
+    <tr><td>Lantai 1</td><td>Pejabat</td><td>Naik -> Belok kiri</td></tr>
+    <tr><td>Lantai 2</td><td>Kelas 4 Intelek</td><td>Naik -> Lurus</td></tr>
+    <tr><td>Lantai 2</td><td>4 Genius</td><td>Naik -> Lurus</td></tr>
+    <tr><td>Lantai 2</td><td>Kelas 4 Pintar</td><td>Naik -> Lurus</td></tr>
+    <tr><td>Lantai 2</td><td>Kelas 5 Intelek</td><td>Naik -> Belok kanan</td></tr>
+    <tr><td>Lantai 2</td><td>Kelas 5 Pintar</td><td>Naik -> Belok kanan</td></tr>
+    <tr><td>Lantai 2</td><td>Kelas 5 Genius</td><td>Naik -> Belok kanan</td></tr>
+    <tr><td>Lantai 2</td><td>Bilik Guru A</td><td>Naik -> Belok kiri</td></tr>
+    <tr><td>Lantai 2</td><td>Kelas 3 Genius</td><td>Naik -> Belok kiri/atas</td></tr>
+    <tr><td>Lantai 2</td><td>Kelas 3 Pintar</td><td>Naik -> Belok kiri</td></tr>
+    <tr><td>Lantai 3</td><td>Pusat Sumber A</td><td>Naik -> Belok kiri</td></tr>
+    <tr><td>Lantai 3</td><td>Kelas 6 Genius</td><td>Naik -> Lurus ke atas</td></tr>
+    <tr><td>Lantai 3</td><td>Kelas 6 Intelek</td><td>Naik -> Lurus ke atas</td></tr>
+    <tr><td>Lantai Bawah</td><td>Kelas 6P</td><td>Lurus terus</td></tr>
+    <tr><td>Lantai Bawah</td><td>Surau</td><td>Lurus -> Belok kanan</td></tr>
+    <tr><td>Lantai Bawah</td><td>Bilik Sains A/B</td><td>Lurus ke depan</td></tr>
+    <tr><td>Lantai Bawah</td><td>Bilik Boss</td><td>Lurus -> Belok kanan</td></tr>
+</table>
 
 </body>
 </html>
